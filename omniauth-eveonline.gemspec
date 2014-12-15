@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = Omniauth::Eveonline::VERSION
   spec.authors       = ["rnishio"]
   spec.email         = ["quick.xp@me.com"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
+  spec.summary       = 'Eve Online Oauth'
+  spec.description   = 'Eve Online Oauth'
   spec.homepage      = ""
   spec.license       = "MIT"
 
