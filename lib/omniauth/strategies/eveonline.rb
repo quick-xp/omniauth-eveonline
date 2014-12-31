@@ -28,7 +28,6 @@ module OmniAuth
             :character_id => raw_info['CharacterID'],
             :character_name => raw_info['CharacterName'],
             :expires_on => raw_info['ExpiresOn'],
-            :scope => raw_info['scope'],
             :token_type => @raw_info['TokenType']
         }
       end
