@@ -37,7 +37,7 @@ You can configure one option, which you pass in to the provider method via a has
 
 Option name | Explanation
 --- | ---
-`scope` | you can set <blank> or 'publicData'
+`scope` | you can set blank or 'publicData'
 
 
 ## Auth Hash
@@ -65,7 +65,7 @@ Here's an example *Auth Hash* available in `request.env['omniauth.auth']`:
 
 ## Contributing
 
-1. Fork it ( https://github.com/[my-github-username]/omniauth-eveonline/fork )
+1. Fork it ( https://github.com/quick-xp/omniauth-eveonline/fork )
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
