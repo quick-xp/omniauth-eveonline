@@ -6,10 +6,9 @@ require 'omniauth/eveonline/version'
 Gem::Specification.new do |spec|
   spec.name          = "omniauth-eveonline"
   spec.version       = Omniauth::Eveonline::VERSION
-  spec.authors       = ["rnishio"]
+  spec.authors       = ["r_nishio"]
   spec.email         = ["quick.xp@me.com"]
-  spec.summary       = 'Eve Online Oauth'
-  spec.description   = 'Eve Online Oauth'
+  spec.summary       = 'Eve Online OAuth2 Strategy for OmniAuth'
   spec.homepage      = ""
   spec.license       = "MIT"
 
@@ -18,6 +17,6 @@ Gem::Specification.new do |spec|
   spec.test_files    = spec.files.grep(%r{^(test|spec|features)/})
   spec.require_paths = ["lib"]
 
-  spec.add_development_dependency "bundler", "~> 1.7"
-  spec.add_development_dependency "rake", "~> 10.0"
+  spec.add_runtime_dependency 'omniauth-oauth2', '~> 1.2'
+  spec.add_development_dependency "rake"
 end
