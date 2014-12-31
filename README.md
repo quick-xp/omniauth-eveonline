@@ -34,14 +34,17 @@ You can now access the OmniAuth Eve Online OAuth2 URL: /auth/eve_online
 ## Configuration
 
 You can configure one option, which you pass in to the provider method via a hash:
+
 Option name | Explanation
 --- | ---
 `scope` | you can set <blank> or 'publicData'
+
 
 ## Auth Hash
 
 Here's an example *Auth Hash* available in `request.env['omniauth.auth']`:
 
+```ruby
 {
   :provider => 'eve_online',
   :uid => '1234567',
@@ -58,7 +61,7 @@ Here's an example *Auth Hash* available in `request.env['omniauth.auth']`:
     :expires => true
   }
  }
-
+```
 
 ## Contributing
 
